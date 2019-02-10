@@ -695,6 +695,7 @@ class V8_EXPORT_PRIVATE MacroAssembler : public TurboAssembler {
   // Needs access to SafepointRegisterStackIndex for compiled frame
   // traversal.
   friend class StandardFrame;
+  DISALLOW_COPY_AND_ASSIGN(MacroAssembler);
 };
 
 // -----------------------------------------------------------------------------
